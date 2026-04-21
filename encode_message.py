@@ -16,10 +16,6 @@ def view_encoded_message(DATA_FILE):
     with open(DATA_FILE, 'r') as file:
         lines = file.read().splitlines()
 
-    # print("--- ALL ENCODED MESSAGES: ---")
-    # print(f" {lines}")
-    # print("---------------------")
-
     print("\n--- All Encoded Messages: ---")
     for i, line in enumerate(lines, start=1):
         print(f"    {i}. {line}")
