@@ -3,3 +3,4 @@ __pycache__/
 # Sensitive files
 saved_encoded_messages.txt
 profile.json
+saved_encoded_messages.json

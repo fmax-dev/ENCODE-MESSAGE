@@ -33,7 +33,7 @@ def register_user(profile):
           profile[username] = hashlib.sha256(password.encode()).hexdigest()
           save_profile(profile)
           print(f"\n✅ '{username}' created sucessfully.")
-          print("Now, login to your account to get started")
+          print("\nNow, login to your account to get started")
      else:
           print("❌ Username and password cannot be empty")
      
